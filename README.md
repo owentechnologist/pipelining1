@@ -10,7 +10,9 @@ https://redis.io/docs/reference/optimization/benchmarks/
 
 ### If you insist on using this or similar code instructions follow:
 
-#### run this by executing:
+## The connection information is set using the jedisconnectionfactory.properties file (so edit that file to match your environment)
+
+#### To run this test application you can execute:
 ```
 mvn compile exec:java
 ```
